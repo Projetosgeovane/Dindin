@@ -1,0 +1,38 @@
+body, h1, h3, p {
+    margin: 0;
+}
+
+#container-header {
+    background-color: #2e948a;
+    height: 117px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 117px;
+    margin-right: 103px;
+    margin-left: 82px;
+}
+
+#menu {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-item {
+    display: inline;
+}
+
+.menu-item-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 47px 15px;
+
+}
+
+#container-footer {
+    background-color: #2e948a;
+    height: 117px;
+}

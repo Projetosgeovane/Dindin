@@ -1,0 +1,74 @@
+#titulo-h1 {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 60px;
+    color: #FF4081;
+    margin-top: 198px;
+    margin-left: 82px;
+}
+
+#titulo-h3 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    color: #555555;
+    margin-left: 82px;
+}
+
+.titulo-card {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 35px;
+    color: #FF4081;
+    margin-top: 3%;
+}
+
+.texto-card {
+    font-family: Ubuntu;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 5%;
+    margin-bottom: 9%;
+
+}
+
+.button-card {
+    color: #fff;
+    text-decoration: none;
+    background-color: #2E948A;
+    border-radius: 52px;
+    padding: 10px 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#container-1 {
+    display: flex;
+    margin-top: 95px;
+    gap: 53px;
+    margin-left: 112px;
+    margin-right: 114px;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #C4C4C4;
+}
+
+#container-2 {
+    display: flex;
+    margin-top: 95px;
+    gap: 53px;
+    margin-left: 112px;
+    margin-right: 114px;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #C4C4C4;
+    ;
+}
+
+#container-3 {
+    display: flex;
+    margin-top: 95px;
+    gap: 53px;
+    margin-left: 112px;
+    margin-right: 114px;
+    padding-bottom: 411px;
+}

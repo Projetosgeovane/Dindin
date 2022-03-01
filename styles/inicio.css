@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    font-family: Ubuntu;
+}
+
+a {
+    text-decoration: none;
+}
+
+p, h1, h4 {
+    margin: 0;
+}
+
+#section-superior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+}
+
+#titulo-superior {
+    font-size: 60px;
+    color: #FF4081;
+    font-weight: 700;
+    margin-bottom: 19px;
+
+}
+
+#titulo-superior1 {
+    font-weight: 400;
+    font-size: 27px;
+    color: #555555;
+    margin-bottom: 38px;
+}
+
+.card-1 {
+    width: 501px;
+    height: 511px;
+    margin-top: 242px;
+}
+
+.card-1 a {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 31px;
+    color: #FF4081;
+    text-decoration: none;
+    padding: 8.5px 26px 22px 26px;
+    border-radius: 62px;
+    border: 2px solid #FF4081;
+}
+
+.card-2 {
+    margin-top: 252px;
+}
+
+#section-central-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 66px;
+    margin-bottom: 266px;
+    gap: 118px;
+}
+
+.card-3 {}
+
+.card-3 img {
+    width: 288px;
+    height: 270px;
+    margin-bottom: 45px;
+}
+
+.card-4 {}
+
+.card-4 img {
+    width: 238px;
+    height: 270px;
+    margin-bottom: 43px;
+}
+
+.card-5 {}
+
+.card-5 img {
+    width: 187px;
+    height: 270px;
+    margin-bottom: 43px;
+}
+
+.titulos-central-1 {
+    font-weight: 700;
+    font-size: 25px;
+    color: #FF4081;
+    margin-bottom: 23px;
+}
+
+.paragrafos-central {
+    font-weight: 300;
+    font-size: 17px;
+    color: #000000;
+    margin-bottom: 41px;
+}
+
+.link-central {
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 15px 8px 15px 9px;
+    background-color: #FF4081;
+    border-radius: 62px;
+}
+
+#titulo-central-2 {
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 37px;
+    color: #009688;
+    margin-left: 128px;
+    margin-top: 119px;
+    margin-bottom: 78px;
+}
+
+#section-central-2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 10px auto;
+    max-width: 1500px;
+    margin-bottom: 236px;
+}
+
+.card-6 {
+    display: flex;
+    align-items: center;
+    width: 570px;
+    padding: 10px 50px;
+}
+
+.card-6 p {
+    margin: 25px 0px;
+}
+
+.card-6 img {
+    margin-right: 20px;
+}
+
+#section-central-3 {
+    margin: 10px auto;
+    max-width: 1500px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#titulo-central-3 {
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 37px;
+    margin-left: 128px;
+    margin-bottom: 73px;
+    color: #009688;
+}
+
+.titulo-central-4 {
+    font-family: Ubuntu;
+    font-weight: 700;
+    font-size: 27px;
+    color: #009688;
+}
+
+.card-7 p {
+    font-family: Ubuntu;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#button-inferior {
+    font-family: Ubuntu;
+    font-size: 25px;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    padding: 10px 41px;
+    display: block;
+    margin: 10px auto;
+    width: 207px;
+
+}
