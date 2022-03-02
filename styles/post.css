@@ -1,0 +1,16 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-central-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 66px;
+    padding-bottom: 119px;
+    gap: 118px;
+    background-color: #F7F7F7;;
+}

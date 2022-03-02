@@ -60,8 +60,9 @@ p, h1, h4 {
     justify-content: center;
     align-items: center;
     margin-top: 66px;
-    margin-bottom: 266px;
+    padding-bottom: 266px;
     gap: 118px;
+    background-color: #F7F7F7;;
 }
 
 .card-3 {}
@@ -145,19 +146,21 @@ p, h1, h4 {
 }
 
 #section-central-3 {
-    margin: 10px auto;
+    padding: 10px auto;
     max-width: 1500px;
     display: flex;
     justify-content: space-around;
+    background-color: #F7F7F7;;
 }
 
 #titulo-central-3 {
     font-family: Ubuntu;
     font-weight: 700;
     font-size: 37px;
-    margin-left: 128px;
-    margin-bottom: 73px;
+    padding-left: 128px;
+    padding-bottom: 73px;
     color: #009688;
+    background-color: #F7F7F7;;
 }
 
 .titulo-central-4 {
@@ -183,5 +186,8 @@ p, h1, h4 {
     display: block;
     margin: 10px auto;
     width: 207px;
+}
 
+#button {
+    background-color: #F7F7F7;
 }
