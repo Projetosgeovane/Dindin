@@ -1,20 +1,28 @@
-body, h1, h3, p, form {
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+body, h1, h3, p, form, ul, li, a, header, footer {
     margin: 0;
     padding: 0;
+    font-family: Ubuntu;
 }
 
 #container-header {
     background-color: #2e948a;
     height: 117px;
+    width: 100%;
 }
 
-nav {
+#nav-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 117px;
-    margin-right: 103px;
-    margin-left: 82px;
+    margin-right: 7%;
+    
+}
+
+#nav-header img {
+    margin-left: 7%;
 }
 
 #menu {
@@ -44,10 +52,23 @@ footer {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    margin-top: 53px;
+    margin-top: 1%;
+    width: 100%;
 }
 
+.menu-footer {
+    list-style-type: none;
+}
 
+.menu-footer-item-link {
+    padding-top: 5%;
+}
+
+.menu-footer-item {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
 
 
 
@@ -55,6 +76,7 @@ footer {
 #button-footer {
     display: flex;
     flex-direction: column;
+    margin-right: 7%;
 }
 
 
@@ -66,7 +88,7 @@ footer {
     border: 2px solid #fff;
     border-radius: 62px;
     padding: 12px 60px;
-    
+
 }
 
 #button-b {
@@ -85,4 +107,13 @@ footer {
     flex-direction: column;
     margin-right: 5%;
     text-align: left;
+}
+
+#nav-footer {
+    margin-right: 15%;
+}
+
+#logo-footer {
+    margin-left: 7%;
+    margin-bottom: 1%;
 }

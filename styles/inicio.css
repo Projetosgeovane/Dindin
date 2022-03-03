@@ -22,7 +22,7 @@ p, h1, h4 {
     font-size: 60px;
     color: #FF4081;
     font-weight: 700;
-    margin-bottom: 19px;
+    margin-bottom: 4%;
 
 }
 
@@ -36,7 +36,7 @@ p, h1, h4 {
 .card-1 {
     width: 501px;
     height: 511px;
-    margin-top: 242px;
+    margin-top: 13%;
 }
 
 .card-1 a {
@@ -59,7 +59,8 @@ p, h1, h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 66px;
+    margin-top: 5%;
+    padding-top: 5%;
     padding-bottom: 266px;
     gap: 118px;
     background-color: #F7F7F7;;
@@ -93,7 +94,7 @@ p, h1, h4 {
     font-weight: 700;
     font-size: 25px;
     color: #FF4081;
-    margin-bottom: 23px;
+    margin-bottom: 7%;
 }
 
 .paragrafos-central {
@@ -116,9 +117,9 @@ p, h1, h4 {
     font-weight: 700;
     font-size: 37px;
     color: #009688;
-    margin-left: 128px;
-    margin-top: 119px;
-    margin-bottom: 78px;
+    margin-left: 7%;
+    margin-top: 7%;
+    margin-bottom: 5%;
 }
 
 #section-central-2 {
@@ -133,8 +134,8 @@ p, h1, h4 {
 .card-6 {
     display: flex;
     align-items: center;
-    width: 570px;
-    padding: 10px 50px;
+    width: 38%;
+    padding: 1% 4%;
 }
 
 .card-6 p {
@@ -142,15 +143,16 @@ p, h1, h4 {
 }
 
 .card-6 img {
-    margin-right: 20px;
+    margin-right: 5%;
 }
 
 #section-central-3 {
     padding: 10px auto;
-    max-width: 1500px;
+    
     display: flex;
-    justify-content: space-around;
-    background-color: #F7F7F7;;
+    justify-content: center;
+    gap: 9%;
+    background-color: #F7F7F7;
 }
 
 #titulo-central-3 {
@@ -158,6 +160,7 @@ p, h1, h4 {
     font-weight: 700;
     font-size: 37px;
     padding-left: 128px;
+    padding-top: 7%;
     padding-bottom: 73px;
     color: #009688;
     background-color: #F7F7F7;;
@@ -190,4 +193,6 @@ p, h1, h4 {
 
 #button {
     background-color: #F7F7F7;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }

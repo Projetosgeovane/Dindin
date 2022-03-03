@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: flex-start;
     width: 60%;
-    padding: 20px;
+    padding: 2%;
 }
 
 #form-contato h1 {
@@ -26,24 +26,25 @@ color: #FF4081;
     text-decoration: none;
     border-radius: 50px;
     padding: 8px 30px;
+    width: 10%;
 }
 
 #form-nome {
-    width: 60%;
+    width: 80%;
     margin-top: 10%;
     border-radius: 7px;
     border: 1px solid #686868;
 }
 
 #form-email {
-    width: 60%;
+    width: 80%;
     margin-top: 3%;
     border-radius: 7px;
     border: 1px solid #686868;
 }
 
 #form-mensagem {
-    width: 60%;
+    width: 80%;
     margin-top: 3%;
     margin-bottom: 3%;
     border-radius: 7px;
