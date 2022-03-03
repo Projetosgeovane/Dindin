@@ -16,6 +16,7 @@ p, h1, h4 {
     justify-content: center;
     align-items: center;
     gap: 39px;
+    flex-wrap: wrap;
 }
 
 #titulo-superior {
@@ -59,6 +60,7 @@ p, h1, h4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 5%;
     padding-top: 5%;
     padding-bottom: 266px;
@@ -148,9 +150,9 @@ p, h1, h4 {
 
 #section-central-3 {
     padding: 10px auto;
-    
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 9%;
     background-color: #F7F7F7;
 }
