@@ -1,29 +1,32 @@
 #container {
     display: flex;
-    margin-left: 202px;
+    flex-wrap: wrap;
+    padding-left: 15%;
     gap: 88px;
-    margin-top: 80px;
-    margin-bottom: 81px;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 
 .card h1 {
     font-weight: bold;
     font-size: 55px;
     color: #FF4081;
-    margin-top: 13px;
+    padding-top: 3%;
 }
 
 .card p {
     font-weight: 300;
     font-size: 20px;
     color: #000000;
+    padding-top: 5%;
 }
 
 #container-1 {
     display: flex;
-    padding-left: 213px;
-    padding-top: 75px;
-    padding-bottom: 73px;
+    flex-wrap: wrap;
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     gap: 76px;
     background: #F7F7F7;
     border-bottom: 3px solid #C4C4C4;
@@ -36,18 +39,21 @@
     color: #FF4081;
 }
 
-.card-centro p {
+.texto-card {
     font-family: Ubuntu;
     font-weight: 300;
     font-size: 20px;
+    line-height: 23px;
     color: #000000;
+    padding-top: 5%;
 }
 
 #container-2 {
     display: flex;
-    padding-left: 213px;
-    padding-top: 75px;
-    padding-bottom: 73px;
+    flex-wrap: wrap;
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     gap: 76px;
     background: #F7F7F7;
     border-bottom: 3px solid #C4C4C4;
@@ -55,9 +61,10 @@
 
 #container-3 {
     display: flex;
-    padding-left: 213px;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    flex-wrap: wrap;
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     gap: 76px;
     background: #F7F7F7;
 }

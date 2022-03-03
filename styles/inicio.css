@@ -37,7 +37,7 @@ p, h1, h4 {
 .card-1 {
     width: 501px;
     height: 511px;
-    margin-top: 13%;
+    padding-top: 15%;
 }
 
 .card-1 a {
@@ -47,13 +47,13 @@ p, h1, h4 {
     line-height: 31px;
     color: #FF4081;
     text-decoration: none;
-    padding: 8.5px 26px 22px 26px;
+    padding: 8.5px 30px;
     border-radius: 62px;
     border: 2px solid #FF4081;
 }
 
 .card-2 {
-    margin-top: 252px;
+    padding-top: 18%;
 }
 
 #section-central-1 {
@@ -68,28 +68,22 @@ p, h1, h4 {
     background-color: #F7F7F7;;
 }
 
-.card-3 {}
-
 .card-3 img {
     width: 288px;
     height: 270px;
-    margin-bottom: 45px;
+    margin-bottom: 13%;
 }
-
-.card-4 {}
 
 .card-4 img {
     width: 238px;
     height: 270px;
-    margin-bottom: 43px;
+    margin-bottom: 12%;
 }
-
-.card-5 {}
 
 .card-5 img {
     width: 187px;
     height: 270px;
-    margin-bottom: 43px;
+    margin-bottom: 12%;
 }
 
 .titulos-central-1 {
