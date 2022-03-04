@@ -52,3 +52,43 @@ color: #FF4081;
 }
 
 
+@media (min-width: 300px) and (max-width: 767px) {
+    #container {
+        flex-wrap: wrap;
+        margin: 100px;
+    }
+
+    .card img {
+        display: none;
+    }
+
+    #form-contato {
+        width: 100%;
+    }
+
+    #form-contato a {
+        width: 20%;
+    }
+}
+
+@media (min-width: 280px) and (max-width: 992px) {
+    #container {
+        flex-wrap: wrap;
+        margin: 100px;
+    }
+
+    .card img {
+        display: none;
+    }
+
+    #form-contato {
+        width: 100%;
+    }
+
+    #form-contato a {
+        width: 20%;
+    }
+}
+    
+
+
