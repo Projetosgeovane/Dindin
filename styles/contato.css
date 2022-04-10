@@ -4,6 +4,7 @@
     margin: 221px auto;
     justify-content: center;
     gap: 20px;
+    max-width: 1900px;
 }
 
 #form-contato {
@@ -12,12 +13,14 @@
     align-items: flex-start;
     width: 60%;
     padding: 2%;
+    width: 100%;
+    max-width: 1900px;
 }
 
 #form-contato h1 {
-font-weight: bold;
-font-size: 40px;
-color: #FF4081;
+    font-weight: bold;
+    font-size: 40px;
+    color: #FF4081;
 }
 
 #form-contato a {
@@ -52,7 +55,35 @@ color: #FF4081;
 }
 
 
-@media (min-width: 300px) and (max-width: 767px) {
+@media (min-width: 280px) and (max-width: 900px) {
+    #container {
+        display: block;
+        flex-wrap: wrap;
+        margin-bottom: 55%;
+        margin-right: 31%;
+        width: 58%;
+    }
+
+    .card img {
+        display: none;
+    }
+
+    #form-contato {
+        width: 100vw;
+    }
+
+    #form-contato a {
+        width: 20%;
+    }
+}
+
+
+
+@media (min-width: 280px) and (max-width: 767px) {}
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
     #container {
         flex-wrap: wrap;
         margin: 100px;
@@ -70,25 +101,3 @@ color: #FF4081;
         width: 20%;
     }
 }
-
-@media (min-width: 280px) and (max-width: 992px) {
-    #container {
-        flex-wrap: wrap;
-        margin: 100px;
-    }
-
-    .card img {
-        display: none;
-    }
-
-    #form-contato {
-        width: 100%;
-    }
-
-    #form-contato a {
-        width: 20%;
-    }
-}
-    
-
-

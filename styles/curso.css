@@ -68,3 +68,5 @@
     gap: 76px;
     background: #F7F7F7;
 }
+
+@media (min-width: 280px) and (max-width: 767px)

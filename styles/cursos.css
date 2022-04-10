@@ -1,7 +1,10 @@
+
+
+
 #titulo-h1 {
     font-family: Ubuntu;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #FF4081;
     margin-top: 14%;
     margin-left: 6%;
@@ -16,7 +19,7 @@
 .titulo-card {
     font-family: Ubuntu;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 2.1875rem;
     color: #FF4081;
     margin-top: 3%;
 }
@@ -24,7 +27,7 @@
 .texto-card {
     font-family: Ubuntu;
     font-weight: 300;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #000000;
     margin-top: 5%;
     margin-bottom: 9%;
@@ -37,7 +40,7 @@
     background-color: #2E948A;
     border-radius: 52px;
     padding: 1% 5%;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
 }
 
@@ -49,6 +52,8 @@
     margin-right: 9%;
     padding-bottom: 4%;
     border-bottom: 3px solid #C4C4C4;
+    width: 83%;
+    max-width: 2000px;
 }
 
 #container-2 {
@@ -59,6 +64,8 @@
     margin-right: 9%;
     padding-bottom: 4%;
     border-bottom: 3px solid #C4C4C4;
+    width: 83%;
+    max-width: 2000px;
     ;
 }
 
@@ -69,4 +76,142 @@
     margin-left: 8%;
     margin-right: 9%;
     padding-bottom: 29%;
+    width: 83%;
+    max-width: 2000px;
+}
+
+.card {
+    width: 32%;
+}
+
+@media (min-width: 280px) and (max-width: 399px) {
+    #titulo-h1 {
+        font-size: 1.75rem;
+    }
+
+    #titulo-h3 {
+        font-size: 0.75rem;
+    }
+
+    .titulo-card {
+        font-size: 0.85rem;
+    }
+    
+    .texto-card {
+        font-size: 0.7rem;
+    }
+    
+    .card {
+        width: 48%;
+    }
+
+    .card img {
+        width: 79%;
+        height: 40%;
+    }
+
+    #container-1 {
+        width: 86%;
+        gap: 0;
+        margin-top: 5%;
+    }
+
+    #container-2 {
+        width: 86%;
+        gap: 0;
+        margin-top: 5%;;
+    }
+
+    #container-3 {
+        width: 86%;
+        gap: 0;
+    }
+
+    .button-card {
+        font-size: 0.97rem;
+    }
+
+  
+}
+
+
+
+@media (min-width: 400px) and (max-width: 699px)
+{
+    #titulo-h1 {
+        font-size: 2.75rem;
+    }
+
+    #titulo-h3 {
+        font-size: 1.1rem;
+    }
+
+    .card {
+        width: 48%;
+    }
+
+    .card img {
+        width: 89%;
+        height: 63%;
+    }
+
+    #container-1 {
+        width: 86%;
+        gap: 10px;
+        margin-top: 5%;
+    }
+
+    #container-2 {
+        width: 86%;
+        gap: 10px;
+        margin-top: 5%;
+    }
+
+    #container-3 {
+        width: 86%;
+        gap: 10px;
+    }
+
+    .titulo-card {
+        font-size: 1.5rem;
+    }
+    
+    .texto-card {
+        font-size: 0.75rem;
+    }
+
+    .button-card {
+        font-size: 1rem;
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 992px)
+{
+    .card {
+        width: 48%;
+    }
+
+    .card img {
+        width: 75%;
+        height: 50%;
+    }
+
+    #container-1 {
+        width: 77%;
+        gap: 0;
+        margin-top: 5%;
+    }
+
+    #container-2 {
+        width: 77%;
+        gap: 0;
+        margin-top: 5%;
+    }
+
+    #container-3 {
+        width: 77%;
+        gap: 0;
+    }
+
 }

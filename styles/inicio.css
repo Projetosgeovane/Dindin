@@ -1,182 +1,189 @@
-body {
-    margin: 0;
-    font-family: Ubuntu;
+#section-banner {
+    max-width: 1900px;
 }
 
-a {
-    text-decoration: none;
-}
-
-p, h1, h4 {
-    margin: 0;
-}
-
-#section-superior {
+#section-banner .wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 39px;
+    padding: 60px 0;
+}
 
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
 }
 
 #titulo-superior {
-    font-size: 60px;
+    font-size: 3.75rem;
     color: #FF4081;
     font-weight: 700;
-    margin-bottom: 4%;
 
 }
 
-#titulo-superior1 {
+#subtitulo {
     font-weight: 400;
-    font-size: 27px;
+    font-size: 1.6875rem;
     color: #555555;
-    margin-bottom: 8%;
 }
 
-.card-1 {
-    width: 501px;
-    height: 511px;
-    padding-top: 15%;
-}
 
-.card-1 a {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 27px;
+.banner-content a {
+    font-size: 1.6875rem;
     line-height: 31px;
     color: #FF4081;
     text-decoration: none;
-    padding: 8.5px 30px;
+    padding: 10px 20px;
     border-radius: 62px;
     border: 2px solid #FF4081;
 }
 
-.card-2 {
-    padding-top: 18%;
+.banner-image {
+    padding-top: 20px;
 }
 
-#section-central-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-    padding-top: 5%;
-    padding-bottom: 19%;
-    gap: 118px;
+
+
+
+
+
+
+
+
+
+#section-central {
     background-color: #F7F7F7;
-    ;
+    padding: 80px 0;
+    
 }
 
-.card-3 img {
+#section-central .wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-central {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.card-central img {
     width: 288px;
     height: 270px;
-    margin-bottom: 13%;
 }
 
-.card-4 img {
-    width: 238px;
-    height: 270px;
-    margin-bottom: 12%;
-}
-
-.card-5 img {
-    width: 187px;
-    height: 270px;
-    margin-bottom: 12%;
-}
-
-.titulos-central-1 {
+.titulos-central {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: #FF4081;
-    margin-bottom: 7%;
 }
 
 .paragrafos-central {
     font-weight: 300;
-    font-size: 17px;
+    font-size: 1.0625rem;
     color: #000000;
-    margin-bottom: 13%;
 }
 
 .link-central {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #FFFFFF;
     padding: 15px 8px 15px 9px;
     background-color: #FF4081;
     border-radius: 62px;
+    text-decoration: none;
 }
 
 #titulo-central-2 {
     font-family: Nunito;
     font-weight: 700;
-    font-size: 37px;
+    font-size: 2.3125rem;
     color: #009688;
-    margin-left: 7%;
-    margin-top: 7%;
-    margin-bottom: 5%;
 }
 
 #section-central-2 {
+   max-width: 1900px;
+}
+
+#section-central-2 .wrapper {
+    padding: 40px;
+}
+
+.depoimentos {
     display: flex;
-    flex-direction: row;
-    margin: 10px auto;
-    max-width: 1500px;
-    margin-bottom: 17%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 0;
 }
 
-.card-6 {
+.card-central-2 {
     display: flex;
-    align-items: center;
-    width: 38%;
-    padding: 1% 4%;
+    width: 620px;
+    gap: 25px;
+    margin-bottom: 40px;
 }
 
-.card-6 p {
-    margin: 25px 0px;
-}
 
-.card-6 img {
-    margin-right: 5%;
-}
 
-#section-central-3 {
-    padding: 10px auto;
-    display: flex;
-    justify-content: center;
-    gap: 9%;
+
+
+
+
+
+
+#section-inferior {
     background-color: #F7F7F7;
 }
 
-#titulo-central-3 {
-    font-family: Ubuntu;
+#section-inferior .wrapper {
+    padding: 40px;
+}
+
+#titulos-inferior {
     font-weight: 700;
-    font-size: 37px;
-    padding-left: 9%;
+    font-size: 2.3125rem;
     padding-top: 7%;
     padding-bottom: 5%;
     color: #009688;
-    background-color: #F7F7F7;
-    ;
 }
 
-.titulo-central-4 {
+.list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+.card {
+    margin-top: 20px;
+    width: 320px;
+}
+
+.card img {}
+
+.card h4 {
     font-family: Ubuntu;
     font-weight: 700;
-    font-size: 27px;
+    font-size: 1.6875rem;
     color: #009688;
+    margin-top: 20px;
 }
 
-.card-7 p {
+.card p {
     font-family: Ubuntu;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.09rem;
 }
 
 #button-inferior {
     font-family: Ubuntu;
-    font-size: 25px;
+    font-size: 1.5625rem;
     color: #FF4081;
     border: 2px solid #FF4081;
     border-radius: 62px;
@@ -192,243 +199,16 @@ p, h1, h4 {
     padding-bottom: 3%;
 }
 
-@media (min-width: 280px) and (max-width: 767px) {
-
-
-    #section-superior {
-        margin-left: 10%;
-
+@media (max-width: 767px) {
+    #section-banner .wrapper {
+        
     }
 
-    .card-1 a {
-        font-size: 10px;
-        padding: 7px 5px;
-    }
-
-    .card-1 {
-        width: 75%;
-        height: 75%;
-        padding-top: 0;
-    }
-
-
-    #titulo-superior {
-        font-size: 14px;
-    }
-
-    #titulo-superior1 {
-        padding-top: 5%;
-        font-size: 11px;
-        margin-bottom: 15%;
-    }
-
-    .card-2 {
-        padding-top: 7%;
-    }
-
-    .card-2 img {
-        height: 75%;
-        width: 75%;
-    }
-
-    #section-central-1 {
-        gap: 40px;
-        padding-bottom: 11%;
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-
-    #section-central-1 img {
+    .banner-image {
         display: none;
     }
 
-    .titulos-central-1 {
-        font-size: 12px;
-    }
-
-    .paragrafos-central {
-        font-size: 9px;
-        margin-bottom: 27%;
-    }
-
-    .link-central {
-        font-size: 10px;
-        padding: 10px 7px;
-    }
-
-    #section-central-2 {
-        flex-direction: column;
-        margin-bottom: 2%;
-    }
-
-    #titulo-central-2 {
-        font-size: 20px;
-    }
-
-    .card-6 {
-        width: auto;
-    }
-
-    .card-6 img {
-        width: 15%;
-        height: 10%;
-    }
-
-    .card-6 p {
-        font-size: 15px;
-    }
-
-    #titulo-central-3 {
-        font-size: 17px;
-    }
-
-    .card-7 {
-        margin: 0 2%;
-    }
-
-    .card-7 img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .titulo-central-4 {
-        font-size: 15px;
-    }
-
-    .card-7 p {
-        display: none;
-    }
-
-    #section-central-3 {
-        gap: 1%;
-    }
-
-    #button {
-        padding-bottom: 10%;
-    }
-
-    #button-inferior {
-        font-size: 18px;
-        padding: 3px 0px;
-        text-align: center;
-    }
-}
-
-
-@media (min-width: 768px) and (max-width: 992px) {
-    #section-superior {
-        margin-left: 10%;
-
-    }
-
-    .card-1 a {
-        font-size: 21px;
-        padding: 7px 5px;
-    }
-
-    .card-1 {
-        width: 75%;
-        height: 75%;
-        padding-top: 0;
-    }
-
-
-    #titulo-superior {
-        font-size: 31px;
-    }
-
-    #titulo-superior1 {
-        padding-top: 0%;
-        font-size: 21px;
-        margin-bottom: 4%;
-    }
-
-    .card-2 {
-        padding-top: 7%;
-    }
-
-    .card-2 img {
-        height: 75%;
-        width: 75%;
-    }
-
-    #section-central-1 {
-        gap: 20px;
-        align-items: baseline;
-        padding-bottom: 11%;
-        padding-left: 3%;
-        padding-right: 3%;
-    }
-
-
-    .titulos-central-1 {
-        font-size: 20px;
-    }
-
-    .paragrafos-central {
-        font-size: 18px;
-        margin-bottom: 20%;
-    }
-
-    .link-central {
-        font-size: 18px;
-        padding: 10px 7px;
-    }
-
-    #section-central-2 {
-        flex-direction: column;
-        margin-bottom: 2%;
-    }
-
-    #titulo-central-2 {
-        font-size: 25px;
-    }
-
-    .card-6 {
-        width: auto;
-    }
-
-    .card-6 img {
-        width: 15%;
-        height: 10%;
-    }
-
-    .card-6 p {
-        font-size: 15px;
-    }
-
-    #titulo-central-3 {
-        font-size: 17px;
-    }
-
-    .card-7 {
-        margin: 0 2%;
-    }
-
-    .card-7 img {
-        width: 200px;
-        height: 150px;
-    }
-
-    .titulo-central-4 {
-        font-size: 20px;
-    }
-
-    .card-7 p {
-        display: none;
-    }
-
-    #section-central-3 {
-        gap: 1%;
-    }
-
-    #button {
-        padding-bottom: 10%;
-    }
-
-    #button-inferior {
-        font-size: 24px;
-        padding: 7px 15px;
-        text-align: center;
+    .list {
+        justify-content: center;
     }
 }
